@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+//sets the assists for the game
 public class Assists {
 	
 	List<Player> team;
@@ -15,7 +16,8 @@ public class Assists {
 		selectAssist();
 		gameAssists();
 	}
-	
+
+//sets the assists skill of the player
 public void selectAssist() {
 		
 		for (Player p : team) {
@@ -26,10 +28,11 @@ public void selectAssist() {
 		}
 	}
 
+//creates player assists for the game (20 total assists per game)
 public void gameAssists()  {
 	Collections.shuffle(assists);
 	
-	for (int i = 0; i < 17; i++) {
+	for (int i = 0; i < 20; i++) {
 		Collections.shuffle(assists);
 		
 		if(assists.get(0) == team.get(0).name) {

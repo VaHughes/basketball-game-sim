@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
+//creates player points based on shooting attribute and shooting percentage.
 public class Shooting {
 	
 	List<Player> team;
@@ -15,6 +16,7 @@ public class Shooting {
 	int fgaC, fgaPF, fgaSF, fgaSG, fgaPG;
 	Random rnd = new Random();
 	
+	//sets the amount the player is likely to shoot.
 	public Shooting(List<Player> team) {
 		this.team = team;
 		selectShooter();
@@ -24,6 +26,7 @@ public class Shooting {
 		fgaTotal = fgaC+fgaPF+fgaSF+fgaSG+fgaPG;
 	}
 	
+	//sets shooter attributes
 	public void selectShooter() {
 		
 		for (Player p : team) {
@@ -34,6 +37,7 @@ public class Shooting {
 		}
 	}
 	
+	//creates player shots for game (100 total shots per team)
 	public void gameShooter()  {
 		Collections.shuffle(shooter);
 		
@@ -62,6 +66,7 @@ public class Shooting {
 		}
 	}
 
+	//decides if the shot is successful based on player shooting percentage
 	public void ShootPct(String n) {
 		
 		if(n == team.get(0).name) {

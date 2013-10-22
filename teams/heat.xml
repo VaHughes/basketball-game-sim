@@ -1,42 +1,42 @@
 <players>
-<player>
-	<name>Chris Bosh</name>
-	<position>Center</position>
-	<shoot>5</shoot>
-	<accuracy>47</accuracy>
-	<rebound>6</rebound>
-	<assist>4</assist>
-</player>
-<player>
-	<name>Udonis Haslem</name>
-	<position>Power Foward</position>
-	<shoot>3</shoot>
-	<accuracy>48</accuracy>
-	<rebound>8</rebound>
-	<assist>1</assist>
-</player>
-<player>
-	<name>LeBron James</name>
-	<position>Small Foward</position>
-	<shoot>10</shoot>
-	<accuracy>45</accuracy>
-	<rebound>8</rebound>
-	<assist>8</assist>
-</player>
-<player>
-	<name>Dwyane Wade</name>
-	<position>Shooting Guard</position>
-	<shoot>10</shoot>
-	<accuracy>42</accuracy>
-	<rebound>4</rebound>
-	<assist>7</assist>
-</player>
-<player>
-	<name>Mario Chalmers</name>
-	<position>Point Guard Guard</position>
-	<shoot>3</shoot>
-	<accuracy>41</accuracy>
-	<rebound>3</rebound>
-	<assist>4</assist>
-</player>
+	<player>
+		<name>Chris Bosh</name>
+		<position>Center</position>
+		<shoot>5</shoot>
+		<accuracy>47</accuracy>
+		<rebound>6</rebound>
+		<assist>4</assist>
+	</player>
+	<player>
+		<name>Udonis Haslem</name>
+		<position>Power Foward</position>
+		<shoot>3</shoot>
+		<accuracy>48</accuracy>
+		<rebound>8</rebound>
+		<assist>1</assist>
+	</player>
+	<player>
+		<name>LeBron James</name>
+		<position>Small Foward</position>
+		<shoot>10</shoot>
+		<accuracy>45</accuracy>
+		<rebound>8</rebound>
+		<assist>8</assist>
+	</player>
+	<player>
+		<name>Dwyane Wade</name>
+		<position>Shooting Guard</position>
+		<shoot>10</shoot>
+		<accuracy>42</accuracy>
+		<rebound>4</rebound>
+		<assist>7</assist>
+	</player>
+	<player>
+		<name>Mario Chalmers</name>
+		<position>Point Guard Guard</position>
+		<shoot>3</shoot>
+		<accuracy>41</accuracy>
+		<rebound>3</rebound>
+		<assist>4</assist>
+	</player>
 </players>

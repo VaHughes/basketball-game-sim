@@ -4,6 +4,7 @@ public class Player {
 	
 	public Player() {}
 	
+	//sets the team's attributes from the xml file
 	public Player(String name, String position, int shoot, int accuracy,
 			int rebound, int assist) {
 		this.name = name;

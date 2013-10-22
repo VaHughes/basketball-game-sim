@@ -5,6 +5,7 @@ import java.util.List;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
+//receives and returns the list of players from the xml file
 @XmlRootElement
 public class Players {
 	

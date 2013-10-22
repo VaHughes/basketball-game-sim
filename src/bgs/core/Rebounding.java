@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+//sets the rebounds for the game
 public class Rebounding {
 	
 	List<Player> team;
@@ -16,6 +17,7 @@ public class Rebounding {
 		gameRebounds();
 	}
 	
+//sets the rebounding skill of the player
 public void selectRebounder() {
 		
 		for (Player p : team) {
@@ -26,6 +28,7 @@ public void selectRebounder() {
 		}
 	}
 
+//creates player rebounds for the game (35 total per team)
 public void gameRebounds()  {
 	Collections.shuffle(rebounds);
 	
