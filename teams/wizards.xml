@@ -1,0 +1,42 @@
+<players>
+	<player>
+		<name>Marcin Gortat</name>
+		<position>Center</position>
+		<shoot>5</shoot>
+		<accuracy>53</accuracy>
+		<rebound>7</rebound>
+		<assist>1</assist>
+	</player>
+	<player>
+		<name>Nenê Hilario</name>
+		<position>Power Foward</position>
+		<shoot>6</shoot>
+		<accuracy>51</accuracy>
+		<rebound>8</rebound>
+		<assist>2</assist>
+	</player>
+	<player>
+		<name>Trevor Ariza</name>
+		<position>Small Foward</position>
+		<shoot>6</shoot>
+		<accuracy>42</accuracy>
+		<rebound>5</rebound>
+		<assist>3</assist>
+	</player>
+	<player>
+		<name>Bradley Beal</name>
+		<position>Shooting Guard</position>
+		<shoot>7</shoot>
+		<accuracy>41</accuracy>
+		<rebound>4</rebound>
+		<assist>3</assist>
+	</player>
+	<player>
+		<name>John Wall</name>
+		<position>Point Guard Guard</position>
+		<shoot>9</shoot>
+		<accuracy>43</accuracy>
+		<rebound>5</rebound>
+		<assist>9</assist>
+	</player>
+</players>

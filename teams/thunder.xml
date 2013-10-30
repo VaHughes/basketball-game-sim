@@ -1,0 +1,42 @@
+<players>
+	<player>
+		<name>Kendrick Perkins</name>
+		<position>Center</position>
+		<shoot>3</shoot>
+		<accuracy>51</accuracy>
+		<rebound>7</rebound>
+		<assist>1</assist>
+	</player>
+	<player>
+		<name>Serge Ibaka</name>
+		<position>Power Foward</position>
+		<shoot>6</shoot>
+		<accuracy>55</accuracy>
+		<rebound>8</rebound>
+		<assist>1</assist>
+	</player>
+	<player>
+		<name>Kevin Durant</name>
+		<position>Small Foward</position>
+		<shoot>10</shoot>
+		<accuracy>48</accuracy>
+		<rebound>7</rebound>
+		<assist>4</assist>
+	</player>
+	<player>
+		<name>Thabo Sefolosha</name>
+		<position>Shooting Guard</position>
+		<shoot>3</shoot>
+		<accuracy>45</accuracy>
+		<rebound>4</rebound>
+		<assist>3</assist>
+	</player>
+	<player>
+		<name>Russell Westbrook</name>
+		<position>Point Guard Guard</position>
+		<shoot>9</shoot>
+		<accuracy>42</accuracy>
+		<rebound>5</rebound>
+		<assist>8</assist>
+	</player>
+</players>
