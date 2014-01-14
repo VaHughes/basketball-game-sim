@@ -1,0 +1,42 @@
+<players>
+	<player>
+		<name>Brook Lopez</name>
+		<position>Center</position>
+		<shoot>8</shoot>
+		<accuracy>51</accuracy>
+		<rebound>7</rebound>
+		<assist>1</assist>
+	</player>
+	<player>
+		<name>Kevin Garnett</name>
+		<position>Power Foward</position>
+		<shoot>5</shoot>
+		<accuracy>44</accuracy>
+		<rebound>7</rebound>
+		<assist>3</assist>
+	</player>
+	<player>
+		<name>Paul Pierce</name>
+		<position>Small Foward</position>
+		<shoot>9</shoot>
+		<accuracy>44</accuracy>
+		<rebound>5</rebound>
+		<assist>3</assist>
+	</player>
+	<player>
+		<name>Joe Johnson</name>
+		<position>Shooting Guard</position>
+		<shoot>6</shoot>
+		<accuracy>44</accuracy>
+		<rebound>3</rebound>
+		<assist>4</assist>
+	</player>
+	<player>
+		<name>Deron Williams</name>
+		<position>Point Guard Guard</position>
+		<shoot>8</shoot>
+		<accuracy>43</accuracy>
+		<rebound>3</rebound>
+		<assist>10</assist>
+	</player>
+</players>

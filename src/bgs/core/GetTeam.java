@@ -20,7 +20,9 @@ public class GetTeam {
 		
 		for (File file : listOfFiles) {
 			if (file.isFile()) {
-				System.out.println(file.getName());
+				String fileName = file.getName();
+				fileName = fileName.substring(0, fileName.lastIndexOf("."));
+				System.out.println(fileName);
 			}
 		}
 		System.out.println();
@@ -54,7 +56,7 @@ public class GetTeam {
 		
 		try {
 			//load xml file to get team
-			File file = new File("teams/" + team);
+			File file = new File("teams/" + team + ".xml");
 			JAXBContext jaxbContext = JAXBContext.newInstance(Players.class);
 			
 			Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
@@ -65,10 +67,6 @@ public class GetTeam {
 			if (homeOrAway == "away")
 				awayTeam = players.getPlayerList();
 			
-			
-			//send the team to the GamSim
-			//@SuppressWarnings("unused")
-			//GameSim gs = new GameSim(players.getPlayerList());
 			
 		} catch (JAXBException e) {
 			System.out.println("Incorrect teams selected.");
@@ -89,9 +87,17 @@ public class GetTeam {
 	
 	public void afterGame() {
 		
-		System.out.print("Hit ENTER to restart game");
-		@SuppressWarnings("unused")
+		System.out.print("Enter a to restart game or q exit: ");
 		String in = stdIn.nextLine();
-		startGame();
+		
+		if (in.equals("q")) {
+			System.exit(0);
+		} else if (in.equals("a")) {
+			startGame();
+		} else {
+			System.out.println("Incorrect input.");
+			afterGame();
+		}
+			
 	}
 }
